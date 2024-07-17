@@ -1,9 +1,6 @@
-from selenium import webdriver
+
 class run:
     def test_run(self):
-         driver = webdriver.Chrome()
-         driver.get("https://google.com/")
-
-
+        print("manish")
 obj=run()
 obj.test_run()
